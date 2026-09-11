@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VidaPlena Clínica de Saúde — atendimento médico, exames e acompanhamento nutricional.">
+  <title>VidaPlena Clínica de Saúde</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="#inicio" class="logo">Vida<span>Plena</span></a>
+      <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Cuidado que acolhe</p>
+          <h1>Saúde de forma simples, humana e completa.</h1>
+          <p class="hero-text">Na VidaPlena, você encontra atendimento médico, exames e acompanhamento especializado em um só lugar.</p>
+          <a class="button" href="#contato">Agende seu atendimento</a>
+        </div>
+        <div class="hero-card">
+          <img src="imagens/atendimento.png" alt="Ilustração de atendimento médico">
+          <div class="floating-card"><strong>Atendimento humanizado</strong><br>Seu bem-estar em primeiro lugar.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="section">
+      <div class="container">
+        <p class="eyebrow">Nossos serviços</p>
+        <h2>Cuidados para todas as fases da sua vida</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="imagens/medicina.jpg" alt="Atendimento médico">
+            <h3>Atendimento médico</h3>
+            <p>Consultas com profissionais preparados para avaliar suas necessidades e orientar seu cuidado.</p>
+          </article>
+          <article class="card">
+            <img src="imagens/exames.jpg" alt="Exames laboratoriais e de imagem">
+            <h3>Exames</h3>
+            <p>Exames laboratoriais e de imagem para auxiliar no diagnóstico e acompanhamento da sua saúde.</p>
+          </article>
+          <article class="card">
+            <img src="imagens/enfermagem.png" alt="Atendimento humanizado">
+            <h3>Enfermagem</h3>
+            <p>Atendimento humanizado, acompanhamento da saúde e orientações educativas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipe" class="section team-section">
+      <div class="container">
+        <p class="eyebrow">Nossa equipe</p>
+        <h2>Profissionais preparados para cuidar de você</h2>
+        <div class="team">
+          <article class="person">
+            <img src="imagens/dra-ana.jpeg" alt="Dra. Ana Martins">
+            <h3>Dra. Ana Martins</h3><p>Clínica Geral</p>
+          </article>
+          <article class="person">
+            <img src="imagens/dr-carlos.jpeg" alt="Dr. Carlos Almeida">
+            <h3>Dr. Carlos Almeida</h3><p>Especialista em Diagnóstico</p>
+          </article>
+          <article class="person">
+            <img src="imagens/enf.laryssa.jpeg" alt="Enf. Laryssa">
+            <h3>Enf. Laryssa Santos</h3><p>Enfermeira</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Fale conosco</p>
+          <h2>Vamos cuidar da sua saúde?</h2>
+          <p>Preencha o formulário. </p>
+        </div>
+        <form class="form" action="#" method="get">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" required>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required>
+          <div class="form-row">
+            <div>
+              <label for="cidade">Cidade</label>
+              <input id="cidade" name="cidade" type="text" placeholder="Sua cidade" required>
+            </div>
+            <div>
+              <label for="estado">Estado</label>
+              <select id="estado" name="estado" required>
+                <option value="">Selecione</option>
+                <option>AC</option><option>AL</option><option>AP</option><option>AM</option>
+                <option>BA</option><option>CE</option><option>DF</option><option>ES</option>
+                <option>GO</option><option>MA</option><option>MT</option><option>MS</option>
+                <option>MG</option><option>PA</option><option>PB</option><option>PR</option>
+                <option>PE</option><option>PI</option><option>RJ</option><option>RN</option>
+                <option>RS</option><option>RO</option><option>RR</option><option>SC</option>
+                <option>SP</option><option>SE</option><option>TO</option>
+              </select>
+            </div>
+          </div>
+          <button class="button" type="submit">Enviar formulário</button>
+          <small></small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <strong>VidaPlena Clínica de Saúde</strong>
+      <span>© 2026 — Projeto de Programação e Desenvolvimento Web.</span>
+    </div>
+  </footer>
+</body>
+</html>
